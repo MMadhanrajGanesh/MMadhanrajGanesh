@@ -1,0 +1,12 @@
+import random
+
+# Function to generate a random multiple of 4 in the range 40 to 160
+def random_multiple_of_4():
+    return random.choice(range(40, 161, 4))
+
+# Generate a 4x5 matrix of random multiples of 4
+matrix = [[random_multiple_of_4() for _ in range(5)] for _ in range(4)]
+
+# Print the generated matrix
+for row in matrix:
+    print(row)
