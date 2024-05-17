@@ -1,0 +1,7 @@
+# Example list containing 5 strings
+strings = ["hello", "world", "python", "programming", "example"]
+
+# Convert all strings to uppercase
+uppercase_strings = [s.upper() for s in strings]
+
+print("Uppercase strings:", uppercase_strings)
