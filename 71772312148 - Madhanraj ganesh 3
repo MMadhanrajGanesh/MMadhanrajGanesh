@@ -1,0 +1,8 @@
+# Initialize the first two Fibonacci numbers
+fib_sequence = [0, 1]
+
+# Generate the first 20 Fibonacci numbers
+[fib_sequence.append(fib_sequence[-1] + fib_sequence[-2]) for _ in range(18)]
+
+# Print the first 20 Fibonacci numbers
+print(fib_sequence)
