@@ -1,0 +1,11 @@
+# Example list containing both positive and negative numbers
+numbers = [10, -1, 20, -3, 30, -5, 40, -7, 50, -9]
+
+# Create a list of positive numbers
+positive_numbers = [x for x in numbers if x > 0]
+
+# Create a list of negative numbers
+negative_numbers = [x for x in numbers if x < 0]
+
+print("Positive numbers:", positive_numbers)
+print("Negative numbers:", negative_numbers)
